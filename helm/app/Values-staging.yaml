@@ -6,10 +6,10 @@ app:
 
 # Image configuration - staging has its own digest to prevent inheriting from dev
 image:
-  tag: staging
+  tag: "staging-v1"
   # Digest must be explicitly set here to override base Values.yaml
   # Will be populated by promotion pipeline
-  digest: ""
+  digest: "sha256:0664d49cfdb9c2cf007c1ef5beb0cf07d95a97466925c66a838c7082ea972ee6"
 
 # Environment variables - override for staging
 env:
