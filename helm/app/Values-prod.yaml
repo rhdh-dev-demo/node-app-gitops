@@ -6,10 +6,10 @@ app:
 
 # Image configuration - prod has its own digest to prevent inheriting from dev
 image:
-  tag: prod
+  tag: "v1.0.0"
   # Digest must be explicitly set here to override base Values.yaml
   # Will be populated by promotion pipeline
-  digest: ""
+  digest: "sha256:0664d49cfdb9c2cf007c1ef5beb0cf07d95a97466925c66a838c7082ea972ee6"
 
 # Environment variables - override for production
 env:
