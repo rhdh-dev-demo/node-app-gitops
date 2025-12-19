@@ -10,7 +10,7 @@ image:
   name: node-app
   # Initial tag - will be updated by pipeline with git SHA
   tag: "latest"
-  digest: "sha256:48c346887946adf4e232d0580694476b8f759af6e336a66222558dc0ebda528f"
+  digest: "sha256:0664d49cfdb9c2cf007c1ef5beb0cf07d95a97466925c66a838c7082ea972ee6"
   # Digest - populated by pipeline for OpenShift cross-namespace pulls
   # When set, deployment uses image@digest format instead of image:tag
   # digest: "sha256:..."
